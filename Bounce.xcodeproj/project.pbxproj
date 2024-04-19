@@ -14,6 +14,8 @@
 		2C60F89C2BD2411A007E2E85 /* BounceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F89B2BD2411A007E2E85 /* BounceTests.swift */; };
 		2C60F8A62BD2411A007E2E85 /* BounceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8A52BD2411A007E2E85 /* BounceUITests.swift */; };
 		2C60F8A82BD2411A007E2E85 /* BounceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8A72BD2411A007E2E85 /* BounceUITestsLaunchTests.swift */; };
+		2C60F8B52BD24144007E2E85 /* EmojiBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8B42BD24144007E2E85 /* EmojiBounce.swift */; };
+		2C60F8B72BD24167007E2E85 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C60F8B62BD24167007E2E85 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		2C60F8A12BD2411A007E2E85 /* BounceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BounceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C60F8A52BD2411A007E2E85 /* BounceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceUITests.swift; sourceTree = "<group>"; };
 		2C60F8A72BD2411A007E2E85 /* BounceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C60F8B42BD24144007E2E85 /* EmojiBounce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiBounce.swift; sourceTree = "<group>"; };
+		2C60F8B62BD24167007E2E85 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				2C60F88A2BD24118007E2E85 /* BounceApp.swift */,
 				2C60F88C2BD24118007E2E85 /* ContentView.swift */,
+				2C60F8B62BD24167007E2E85 /* GameView.swift */,
+				2C60F8B42BD24144007E2E85 /* EmojiBounce.swift */,
 				2C60F88E2BD2411A007E2E85 /* Assets.xcassets */,
 				2C60F8902BD2411A007E2E85 /* Preview Content */,
 			);
@@ -257,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C60F8B52BD24144007E2E85 /* EmojiBounce.swift in Sources */,
 				2C60F88D2BD24118007E2E85 /* ContentView.swift in Sources */,
+				2C60F8B72BD24167007E2E85 /* GameView.swift in Sources */,
 				2C60F88B2BD24118007E2E85 /* BounceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
